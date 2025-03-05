@@ -1,0 +1,111 @@
+/*Estilos generales*/
+.logo{
+    width: 100px;
+}
+*{
+    font-family: "Roboto Flex", serif;
+}
+.contenedorPrincipal{
+    background-color: #00000012;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*header*/
+/*main*/
+.h3Grande{
+    font-size: 25px;
+}
+.ultimosTrabajos{
+    width: 300px;
+}
+.parrafos{
+    font-weight: 200;
+}
+.dientes{
+    width: 500px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img {
+    max-width: 25%;
+    height: auto;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+.boton{
+    background-color: #cb002c; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 32px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 14px; /* Tamaño del texto */
+    font-weight: 500; /*grosor del texto*/
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    border-radius: 30px; /* Bordes redondeados */
+}
+/* Posicionamiento del botón */
+.ubicacionBoton{
+    display: flex; /* Uso de flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+/*footer*/
+.tituloFooter{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.redes{
+    width: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around; /* Opcional: distribuye los elementos de manera uniforme */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none; /* Para quitar el subrayado de los enlaces */
+    padding: 30px;
+    color: #000;
+}
+header {
+    display: flex;
+    justify-content: center; /* Centra los elementos en el eje horizontal */
+    align-items: center; /* Centra los elementos en el eje vertical */
+    height: 200px; /* Ajusta el alto del header a tu preferencia */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo para la imagen */
+header img  {
+    height: 100px; /* Ajusta el tamaño de la imagen */
+    margin-right: 10px; /* Un pequeño espacio entre la imagen y el título */
+}
+
+/* Estilo para el título */
+header h1  {
+    font-size: 24px; /* Ajusta el tamaño del título */
+    margin: 0; /* Elimina el margen predeterminado */
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;/* Elimina el punto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Opcional: distribuye los elementos de manera uniforme */
+    list-style-type: none;
+    
+}
+.fontcard {
+    font-family: "Roboto Flex";
+}
