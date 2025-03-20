@@ -109,3 +109,6 @@ ul {
 .fontcard {
     font-family: "Roboto Flex";
 }
+  .navbar-nav .nav-link {
+    margin-right: 30px;
+  }
