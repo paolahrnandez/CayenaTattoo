@@ -21,9 +21,7 @@
 .parrafos{
     font-weight: 200;
 }
-.dientes{
-    width: 500px;
-}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +47,7 @@
     cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
     border-radius: 30px; /* Bordes redondeados */
 }
+
 /* Posicionamiento del botón */
 .ubicacionBoton{
     display: flex; /* Uso de flexbox */
@@ -109,6 +108,32 @@ ul {
 .fontcard {
     font-family: "Roboto Flex";
 }
-  .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     margin-right: 30px;
   }
+
+.card-body {
+    font-family: "Roboto Flex", serif;
+    font-weight: 200;
+}
+.card-body2 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+  .row.g-0 {
+    height: 100%; /* Asegura que las columnas tengan alturas consistentes */
+  }
+
+  .col-md-4 {
+    display: flex; /* Asegura que la imagen se estire correctamente */
+    align-items: stretch; /* Estira el contenido */
+    height: 100%; /* Ocupa toda la altura del contenedor */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+  }
+
+.card-image {
+    margin-left: 100px;
+}
