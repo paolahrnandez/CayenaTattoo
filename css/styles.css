@@ -120,16 +120,36 @@ ul {
 .navbar-nav .nav-link {
     margin-right: 30px;
   }
-
+.card-sobreNosotros{
+    margin: auto;
+    height: auto;
+    width: 70%;
+    max-width: 1205px;
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-image {
+    width: 100%;
+    max-width: 400%; /* Controla el tamaño máximo */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body2 {
+    padding: 15px;
+    flex: 1; /* Ajusta el contenido */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
 .card-body {
     font-family: "Roboto Flex", serif;
     font-weight: 200;
-}
-.card-body2 {
-    font-family: "Roboto Flex", serif;
-    font-weight: 200;
-    margin-top: 50px;
-    margin-right: 80px;
 }
 
   .row.g-0 {
