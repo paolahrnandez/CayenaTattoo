@@ -1,0 +1,24 @@
+//header nesting
+.hipervinculoHome{
+    flex-direction: row;
+    color: $colorTexto;
+    &:hover{
+        @include textoHover(none,$colorPrimario)
+        }
+    .contenedorPrincipal{
+        background-color: #00000012 ;
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            height: 200px; 
+            .logo{
+                width: 100px;
+                height: 100px;
+                margin-right: 10px; //espacio entre la imagen y el título
+            }
+        }
+    }

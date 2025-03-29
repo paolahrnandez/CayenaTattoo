@@ -1,0 +1,29 @@
+//footer nesting
+footer {
+    .rrss {
+      font-family: "Roboto Flex", serif;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+  
+      h3.h3Grande {
+       font-size: 20px;
+      }
+  
+      .hipervInsta {
+        a {
+          text-decoration: none;
+          color: $colorTexto;
+  
+          &:hover {
+            color: $colorPrimario;
+          }
+  
+          .logoInsta {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }

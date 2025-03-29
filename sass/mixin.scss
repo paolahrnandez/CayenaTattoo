@@ -1,0 +1,4 @@
+@mixin textoHover ($subrayado,$color) {
+    text-decoration: none;
+    color: $color;
+}

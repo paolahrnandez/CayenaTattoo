@@ -1,179 +1,190 @@
-/*Estilos generales*/
-.logo{
-    width: 100px;
+@charset "UTF-8";
+.hipervinculoHome {
+  flex-direction: row;
+  color: #000000;
 }
-*{
-    font-family: "Roboto Flex", serif;
+.hipervinculoHome:hover {
+  text-decoration: none;
+  color: #cb002c;
 }
-.contenedorPrincipal{
-    background-color: #00000012;
-    margin-left: 30px;
-    margin-right: 30px;
+.hipervinculoHome .contenedorPrincipal {
+  background-color: rgba(0, 0, 0, 0.0705882353);
+  margin-left: 30px;
+  margin-right: 30px;
 }
-/*header*/
-.hipervinculoHome{
-    text-decoration: none;
-    flex-direction: row;
-    color: #000;
+.hipervinculoHome header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
-.hipervinculoHome:hover{
-    text-decoration: none;
-    color: #cb002c;
+.hipervinculoHome header .logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
 }
+
+footer .rrss {
+  font-family: "Roboto Flex", serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer .rrss h3.h3Grande {
+  font-size: 20px;
+}
+footer .rrss .hipervInsta a {
+  text-decoration: none;
+  color: #000000;
+}
+footer .rrss .hipervInsta a:hover {
+  color: #cb002c;
+}
+footer .rrss .hipervInsta a .logoInsta {
+  width: 30px;
+}
+
+* {
+  font-family: "Roboto Flex", serif;
+}
+
 /*main*/
-.h3Grande{
-    font-size: 25px;
-    font-family: "Roboto Flex", serif;
-    justify-content: center;
-    display: flex;
+.h3Grande {
+  font-size: 25px;
+  font-family: "Roboto Flex", serif;
+  justify-content: center;
+  display: flex;
 }
-.ultimosTrabajos{
-    width: 300px;
+
+.ultimosTrabajos {
+  width: 300px;
 }
-.parrafos{
-    font-weight: 200;
+
+.parrafos {
+  font-weight: 200;
 }
+
 /*galeria*/
 .galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .galeria img {
-    max-width: 25%;
-    height: auto;
-    margin: 5px;
-    border: 1px solid #ddd;
+  max-width: 25%;
+  height: auto;
+  margin: 5px;
+  border: 1px solid #ddd;
 }
+
 /*nav bar*/
 nav {
-    display: flex;
-    justify-content: space-around; 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 nav a {
-    text-decoration: none; /* Para quitar el subrayado de los enlaces */
-    padding: 30px;
-    color: #000;
+  color: #000000;
+  padding: 30px;
 }
-nav a:hover{
-    text-decoration: none;
-    color: #cb002c;
-}
-header {
-    display: flex;
-    justify-content: center; /* Centra los elementos en el eje horizontal */
-    align-items: center; /* Centra los elementos en el eje vertical */
-    height: 200px; /* Ajusta el alto del header a tu preferencia */
-    background-color: #f0f0f0; /* Color de fondo */
+nav a:hover {
+  text-decoration: none;
+  color: #cb002c;
 }
 
-/* Estilo para la imagen */
-header img  {
-    height: 100px; /* Ajusta el tamaño de la imagen */
-    margin-right: 10px; /* Un pequeño espacio entre la imagen y el título */
+.navbar-nav .nav-link {
+  margin-right: 30px;
 }
 
-/* Estilo para el título */
-header h1  {
-    font-size: 24px; /* Ajusta el tamaño del título */
-    margin: 0; /* Elimina el margen predeterminado */
-    margin-left: 5px;
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-left: 5px;
 }
+
 /*Lista en ultimos trabajos-index*/
 ul {
-    list-style-type: none;/* Elimina el punto */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around; /* Opcional: distribuye los elementos de manera uniforme */
-    list-style-type: none;
-    
+  list-style-type: none; /* Elimina el punto */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Opcional: distribuye los elementos de manera uniforme */
+  list-style-type: none;
 }
-.navbar-nav .nav-link {
-    margin-right: 30px;
-  }
+
 /*cards*/
-.card-sobreNosotros{
-    margin: auto;
-    height: auto;
-    width: 70%;
-    max-width: 1205px;
+.card-sobreNosotros {
+  margin: auto;
+  height: auto;
+  width: 70%;
+  max-width: 1205px;
 }
+
 .card-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .card-image {
-    width: 100%;
-    max-width: 400%; /* Controla el tamaño máximo */
-    height: auto;
-    object-fit: cover;
-  }
-
-  .card-text {
-    font-size: 1rem;
-  }
-  
-.card-body {
-    font-family: "Roboto Flex", serif;
-    font-weight: 200;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-  .row.g-0 {
-    height: 100%; /* Asegura que las columnas tengan alturas consistentes */
-  }
-
-  .col-md-4 {
-    display: flex; /* Asegura que la imagen se estire correctamente */
-    align-items: stretch; /* Estira el contenido */
-    height: 100%; /* Ocupa toda la altura del contenedor */
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
-  }
 
 .card-image {
-    margin-left: 100px;
+  width: 100%;
+  max-width: 400%; /* Controla el tamaño máximo */
+  height: auto;
+  object-fit: cover;
 }
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-body {
+  font-family: "Roboto Flex", serif;
+  font-weight: 200;
+}
+
+.row.g-0 {
+  height: 100%; /* Asegura que las columnas tengan alturas consistentes */
+}
+
+.col-md-4 {
+  display: flex; /* Asegura que la imagen se estire correctamente */
+  align-items: stretch; /* Estira el contenido */
+  height: 100%; /* Ocupa toda la altura del contenedor */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.card-image {
+  margin-left: 100px;
+}
+
 /* Boton */
-.boton{
-    background-color: #cb002c; /* Color de fondo */
-    border: none; /* Sin borde */
-    color: #ffffff; /* Color del texto */
-    padding: 10px 32px; /* Relleno */
-    text-align: center; /* Alineación del texto */
-    display: inline-block; /* Mostrar como bloque en línea */
-    font-size: 14px; /* Tamaño del texto */
-    font-weight: 500; /*grosor del texto*/
-    margin: 4px 2px; /* Margen */
-    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
-    border-radius: 30px; /* Bordes redondeados */
+.boton {
+  background-color: #cb002c;
+  border: none; /* Sin borde */
+  color: #ffffff; /* Color del texto */
+  padding: 10px 32px; /* Relleno */
+  text-align: center; /* Alineación del texto */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 14px; /* Tamaño del texto */
+  font-weight: 500; /*grosor del texto*/
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  border-radius: 30px; /* Bordes redondeados */
 }
-.ubicacionBoton{
-    display: flex; /* Uso de flexbox */
-    justify-content: center; /* Centramos horizontalmente */
-    align-items: center; /* Centramos verticalmente */
+
+.ubicacionBoton {
+  display: flex; /* Uso de flexbox */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center; /* Centramos verticalmente */
 }
-.boton:hover{
-    text-decoration: none;
-    color: #ffffff;
+
+.boton:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
-/*footer*/
-.logoInsta{
-    width: 30px;
-}
-.rrss{
-    font-family: "Roboto Flex", serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-footer .rrss a {
-    color:#000 
-  }
-footer .rrss a:hover {
-    color: #cb002c;
-}
+
+/*# sourceMappingURL=styles.css.map */
