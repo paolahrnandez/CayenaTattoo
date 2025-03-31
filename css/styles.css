@@ -158,7 +158,7 @@ ul .ultimosTrabajos {
   justify-content: center;
   flex-wrap: wrap;
 }
-.galeria .galeria img {
+.galeria img {
   max-width: 25%;
   height: auto;
   margin: 5px;
