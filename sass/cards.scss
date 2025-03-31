@@ -1,0 +1,54 @@
+//cards
+.card-sobreNosotros{
+    margin: auto;
+    height: auto;
+    width: 70%;
+    max-width: 1205px;
+}
+
+.row.g-0 {
+    display: flex;
+    height: 100%; 
+    .col-md-4 {
+        display: flex; 
+        align-items: stretch;
+        height: 100%; 
+        object-fit: cover; 
+        .card-image {
+            margin-left: 100px;
+            width: 100%;
+            max-width: 400%; 
+            height: auto;
+            object-fit: cover;
+        }
+      }
+      .card-body {
+        font-family: "Roboto Flex", serif;
+        font-weight: 200;
+        .card-text {
+            font-size: 1rem;
+          }
+    }
+}
+//Lista en ultimos trabajos-index
+ul {
+    list-style-type: none;/* Elimina el punto */
+    margin: 0;
+    padding: 0;
+    @include ubiFlexTexto(flex,space-around);
+    list-style-type: none; 
+    .ultimosTrabajos{
+        width: 300px;
+    }
+}
+//galeria
+.galeria {
+    @include ubiFlexTexto(flex,center);
+    flex-wrap: wrap;
+    .galeria img {
+        max-width: 25%;
+        height: auto;
+        margin: 5px;
+        border: 1px solid #ddd;
+    }
+}

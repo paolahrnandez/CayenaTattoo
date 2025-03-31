@@ -1,0 +1,13 @@
+//estilos generales
+*{
+    font-family: "Roboto Flex", serif;
+}
+/*main*/
+.h3Grande{
+    font-size: 35px;
+    font-family: "Roboto Flex", serif;
+    @include ubiFlexTexto(flex,center)
+}
+.parrafos{
+    font-weight: 200;
+}

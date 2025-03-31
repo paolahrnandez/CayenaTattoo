@@ -1,14 +1,14 @@
-//header nesting
+//header 
+.contenedorPrincipal{
+    background-color: #00000012;
+    margin-left: 30px;
+    margin-right: 20px;
+}
 .hipervinculoHome{
     flex-direction: row;
     color: $colorTexto;
     &:hover{
         @include textoHover(none,$colorPrimario)
-        }
-    .contenedorPrincipal{
-        background-color: #00000012 ;
-        margin-left: 30px;
-        margin-right: 30px;
         }
         header {
             display: flex;
@@ -22,3 +22,20 @@
             }
         }
     }
+//nav bar
+nav {
+    @include ubiFlexTexto(flex,space-around);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    a {
+        color: $colorTexto;
+        padding: 30px;
+            &:hover{
+                @include textoHover(none,$colorPrimario);
+            }
+    }
+    .nav-link{
+     margin-right: 30px;
+            }
+}

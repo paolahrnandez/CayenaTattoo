@@ -2,3 +2,7 @@
     text-decoration: none;
     color: $color;
 }
+@mixin ubiFlexTexto ($flex,$ubicacion){
+    display: $flex;
+    justify-content: $ubicacion;
+}
