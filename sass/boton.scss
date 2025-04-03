@@ -1,6 +1,8 @@
 // Boton
 .boton{
     background-color: $colorPrimario; 
+    transition-property: background-color;
+    transition-duration: 0.1s;
     border: none; 
     color: #ffffff; 
     padding: 10px 32px; /* Relleno */
@@ -12,7 +14,8 @@
     cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
     border-radius: 30px; 
         &:hover{
-            @include textoHover(none, #ffffff)
+            @include textoHover(none,#ffffff);
+            background-color: rgb(26, 26, 26);
         }
 }
 .ubicacionBoton{
@@ -21,6 +24,8 @@
     align-items: center; 
         .boton{
             background-color: $colorPrimario; 
+            transition-property: background-color;
+            transition-duration: 0.1s;
             border: none; 
             color: #ffffff; 
             padding: 10px 32px; /* Relleno */
@@ -32,7 +37,8 @@
             cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
             border-radius: 30px; 
                 &:hover{
-                    @include textoHover(none, #ffffff)
+                    @include textoHover(none, #ffffff);
+                    background-color: rgb(26, 26, 26);
                 }
         }
 }

@@ -70,6 +70,8 @@ footer .rrss .hipervInsta a .logoInsta {
 
 .boton {
   background-color: #cb002c;
+  transition-property: background-color;
+  transition-duration: 0.1s;
   border: none;
   color: #ffffff;
   padding: 10px 32px; /* Relleno */
@@ -84,6 +86,7 @@ footer .rrss .hipervInsta a .logoInsta {
 .boton:hover {
   text-decoration: none;
   color: #ffffff;
+  background-color: rgb(26, 26, 26);
 }
 
 .ubicacionBoton {
@@ -93,6 +96,8 @@ footer .rrss .hipervInsta a .logoInsta {
 }
 .ubicacionBoton .boton {
   background-color: #cb002c;
+  transition-property: background-color;
+  transition-duration: 0.1s;
   border: none;
   color: #ffffff;
   padding: 10px 32px; /* Relleno */
@@ -107,6 +112,7 @@ footer .rrss .hipervInsta a .logoInsta {
 .ubicacionBoton .boton:hover {
   text-decoration: none;
   color: #ffffff;
+  background-color: rgb(26, 26, 26);
 }
 
 .card-sobreNosotros {
