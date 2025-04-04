@@ -52,3 +52,29 @@ ul {
         border: 1px solid #ddd;
     }
 }
+.formularioBg{
+    background-image: linear-gradient(to top,#00000007,$colorTextoBoton);
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 0.1rem 0;
+    border: 1px solid $backgroundColor;
+    border-radius: 30px;
+}
+.formulario{
+    font-weight: 200;
+    margin: 2rem !important;
+    display: block;
+    .form-label{
+        margin-top: 1.5rem;
+    }
+    .form-control{
+        border-radius: 30px;
+    }
+    .containerCheck{
+        margin-top: 4rem;
+    }
+    .ubicacionBoton{
+        margin-top: 2rem;
+    }
+    
+}

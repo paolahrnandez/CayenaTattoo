@@ -36,78 +36,77 @@
     </nav> 
 
     <main>
+        <div class="h3Grande">
         <h1>Agendar un turno</h1>
-            <div>
-                <p class="parrafos">Déjanos tu idea junto a tus datos acá y pronto nos pondremos en contacto</p>
-                <div>
-                    <form action="/submit" method="POST">
-                        <!-- Campo de Nombre -->
-                        <label for="nombre">Nombre Completo*</label>
-                        <input type="text" id="nombre" name="nombre" required>
-                        <br><br>
-                </div>
-                <div>  
-                    <!-- Campo de Correo Electrónico -->
-                    <label for="email">Correo Electrónico*</label>
-                    <input type="email" id="email" name="email" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Campo de Teléfono de contacto -->
-                    <label for="Teléfono">Teléfono de Contacto*</label>
-                    <input type="Teléfono" id="Teléfono" name="Teléfono" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Campo de Fecha de Nacimiento -->
-                    <label for="Edad">Fecha de Nacimiento (debes ser mayor de edad el día de la realización del tatuaje)*</label>
-                    <input type="Edad" id="Edad" name="Edad" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Campo de Medidas del tatuaje -->
-                    <label for="Tamaño">Medida aproximada del tatuaje en cm</label>
-                    <input type="Tamaño" id="Tamaño" name="Tamaño" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Casillas de color de tinta -->
-                    <form>
-                        <label for="tinta negra">Black and Grey</label>
-                        <input type="checkbox" id="tinta negra" name="tinta negra">
-                      </form>
-                      <form>
-                        <label for="Color">Color</label>
-                        <input type="checkbox" id="Color" name="Color">
-                      </form>
-                </div>
-                <div>
-                    <!-- Campo de zona del tatuaje -->
-                    <label for="Zona">Zona del cuepo a tatuar</label>
-                    <input type="Zona" id="Zona" name="Zona" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Campo para Adjuntar Archivo -->
-                    <p>Imágenes de referencia</p>
-                    <label for="archivo">Adjuntar Archivo</label>
-                    <input type="file" id="archivo" name="archivo" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Campo de Disponibilidad Horaria -->
-                    <label for="Horario">Disponibilidad Horaria</label>
-                    <input type="Horario" id="Horario" name="Horario" required>
-                    <br><br>
-                </div>
-                <div>
-                    <!-- Botón de Enviar -->
-                    <a class="boton" button type="submit">Enviar</a>
+        </div>
+            <div class="formularioBg">
+            <div class="formulario">
+                <p class="parrafos">Déjanos acá tu idea junto a tus datos y pronto nos pondremos en contacto.</p>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputNombre4" class="form-label">Nombre Completo</label>
+                      <input type="Nombre" class="form-control" id="inputNombre4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputTelefono4" class="form-label">Teléfono de contácto</label>
+                      <input type="Telefono" class="form-control" id="inputTelefono4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEdad4" class="form-label">Edad (debes ser mayor de edad el día del turno)</label>
+                      <input type="Edad" class="form-control" id="inputEdad4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputMedida4" class="form-label">Medida aproximada del tatuaje en cm</label>
+                      <input type="Medida" class="form-control" id="inputMedida4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputZona4" class="form-label">Zona del cuepo a tatuar</label>
+                      <input type="Zona" class="form-control" id="inputZona4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputHorario4" class="form-label">Disponibilidad horaria</label>
+                      <input type="Horario" class="form-control" id="inputHorario4">
+                    </div>
+                    <div class="col-md-2">
+                        <div class="containerCheck">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="black&grey1" checked>
+                            <label class="form-check-label" for="black&grey1">
+                              Black&grey
+                            </label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="containerCheck">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioDefault" id="Color2">
+                            <label class="form-check-label" for="Color2">
+                                Color
+                            </label>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="formFileMultiple" class="form-label">Adjuntar Archivos</label>
+                        </div>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    </div>
+                    <div class="col-12">
+                    <div class="ubicacionBoton">
+                    <div class="boton">
+                        <a button type="submit">Enviar</a>
+                    </div>
+                    </div>
                     </div>
                 </form>
             </div>
+            </div>
     </main>
-</div>
 <footer>
     <div class="rrss">
         <h3 class="h3Grande">Redes Sociales</h3>

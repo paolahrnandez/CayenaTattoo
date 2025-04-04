@@ -68,27 +68,6 @@ footer .rrss .hipervInsta a .logoInsta {
   width: 30px;
 }
 
-.boton {
-  background-color: #cb002c;
-  transition-property: background-color;
-  transition-duration: 0.1s;
-  border: none;
-  color: #ffffff;
-  padding: 10px 32px; /* Relleno */
-  text-align: center;
-  display: inline-block; /* Mostrar como bloque en línea */
-  font-size: 14px; /* Tamaño del texto */
-  font-weight: 500; /*grosor del texto*/
-  margin: 4px 2px; /* Margen */
-  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
-  border-radius: 30px;
-}
-.boton:hover {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: rgb(26, 26, 26);
-}
-
 .ubicacionBoton {
   display: flex;
   justify-content: center;
@@ -169,6 +148,33 @@ ul .ultimosTrabajos {
   height: auto;
   margin: 5px;
   border: 1px solid #ddd;
+}
+
+.formularioBg {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.0274509804), #ffffff);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 0.1rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.0705882353);
+  border-radius: 30px;
+}
+
+.formulario {
+  font-weight: 200;
+  margin: 2rem !important;
+  display: block;
+}
+.formulario .form-label {
+  margin-top: 1.5rem;
+}
+.formulario .form-control {
+  border-radius: 30px;
+}
+.formulario .containerCheck {
+  margin-top: 4rem;
+}
+.formulario .ubicacionBoton {
+  margin-top: 2rem;
 }
 
 * {

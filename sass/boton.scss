@@ -1,23 +1,4 @@
 // Boton
-.boton{
-    background-color: $colorPrimario; 
-    transition-property: background-color;
-    transition-duration: 0.1s;
-    border: none; 
-    color: #ffffff; 
-    padding: 10px 32px; /* Relleno */
-    text-align: center;
-    display: inline-block; /* Mostrar como bloque en línea */
-    font-size: 14px; /* Tamaño del texto */
-    font-weight: 500; /*grosor del texto*/
-    margin: 4px 2px; /* Margen */
-    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
-    border-radius: 30px; 
-        &:hover{
-            @include textoHover(none,#ffffff);
-            background-color: rgb(26, 26, 26);
-        }
-}
 .ubicacionBoton{
     display: flex; 
     justify-content: center;
